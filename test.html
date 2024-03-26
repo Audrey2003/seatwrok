@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hover to Show Content</title>
+<style>
+    /* Initially hide the content */
+    .content {
+        display: none;
+    }
+
+    /* Show the content on hover */
+    .container:hover .content {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <p>Hover over this text to show content:</p>
+    <div class="content">
+        <p>This content will be displayed when you hover over the text above.</p>
+    </div>
+</div>
+
+</body>
+</html>
